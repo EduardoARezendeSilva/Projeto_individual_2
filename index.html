@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="vierpoint" content="width-divece-widht, initial-scale-1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Modelo</title>
+        <link rel="icon" type="imagem/png" href="img/icone.png">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <img src="img/logo.png" alt="">
+
+        <header>
+
+            <h1>Verificar seu rendimento da corrida</h1>
+
+        </header>
+
+        <section>
+
+            <div>
+                <h3>NOME</h3>
+                <input type="text" id="nome" class="entrada">
+            </div>
+
+            <div>
+                <h3>Valor do Produto</h3>
+                <input type="number" id="produto" class="entrada">
+            </div>
+
+            <div>
+                <h3>Valor do Salario</h3>
+                <input type="number" id="salario" class="entrada">
+            </div>
+
+            <div>
+                <h3>Valor de Entrada</h3>
+                <input type="number" id="entrada" class="entrada" min="0">
+            </div>
+
+            <div>
+                <h3>Juros ao mês</h3>
+                <input type="number" id="juros" class="entrada" min="0">
+            </div>
+
+            <div>
+                <h3>Quantidade de Prestações</h3>
+                <input type="number" id="prestacao" class="entrada" min="0">
+            </div>
+
+            <div>
+                <input type="button" id="calcular" value="Calcular" class="botao" onclick="calcular()">
+            </div>
+
+            <div>
+                <h3>RESULTADO</h3>
+                <div class="resultado" id='resultado'></div>
+            </div>
+
+        </section>
+        <footer>
+            
+            <p>&copy; Cotemig</p>
+
+        </footer>
+    </body>
+    <Script src="javascript/script.js"> </script>
+</html>
